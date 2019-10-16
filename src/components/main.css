@@ -1,0 +1,38 @@
+
+.section {
+    width: 100%;
+    height: 250px;
+}
+
+.black-background  {
+    background: rgb(12,12,12);
+    background: linear-gradient(180deg, rgba(12,12,12,1) 0%, rgb(21, 21, 21) 50%, rgb(21, 21, 21) 100%);
+}
+
+#index-top {
+    height: 20vh;
+}
+
+#index-top-text {
+    margin-top: 35%;
+}
+
+
+@media  only screen and (max-width: 350px) {
+    .header-text h1 {
+        font-size: 35px;
+    }
+}
+
+
+@media only screen and (min-width: 1000px) {
+    #index-top {
+        height: 400px;
+    }
+
+    .header-text h1 {
+        font-size: 70px;
+    }
+}
+
+

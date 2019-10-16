@@ -6,7 +6,7 @@ import Nav from "react-bootstrap/Nav";
 
 const Header = ({ siteTitle }) => (
     <header>
-        <Navbar bg="light" variant="light" expand="md">
+        <Navbar bg="light" variant="light" expand="md" fixed="top">
             <Navbar.Brand>{siteTitle}</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
