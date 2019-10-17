@@ -30,9 +30,6 @@ const BackgroundSection = ({ className }) => (
                     <div id="index-top" />
                     <div className="header-text" id="index-top-text">
                         <h1 className=" text-center p-2">Nookachamps Farms</h1>
-                        <h3 className="text-center p-2">
-                            A family-owned, sustainable hazelnut orchard
-                        </h3>
                     </div>
                 </BackgroundImage>
             );
