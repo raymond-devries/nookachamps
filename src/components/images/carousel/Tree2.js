@@ -28,7 +28,13 @@ const Tree2 = () => {
         }
     `);
 
-    return <Img fluid={data.placeholderImage.childImageSharp.fluid} />;
+    return (
+        <Img
+            fluid={data.placeholderImage.childImageSharp.fluid}
+            imgStyle={{ objectFit: "contain" }}
+            style={{ maxHeight: "500px" }}
+        />
+    );
 };
 
 export default Tree2;

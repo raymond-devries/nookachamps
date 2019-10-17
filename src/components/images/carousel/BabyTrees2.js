@@ -28,7 +28,13 @@ const BabyTrees2 = () => {
         }
     `);
 
-    return <Img fluid={data.placeholderImage.childImageSharp.fluid} />;
+    return (
+        <Img
+            fluid={data.placeholderImage.childImageSharp.fluid}
+            imgStyle={{ objectFit: "contain" }}
+            style={{ maxHeight: "500px" }}
+        />
+    );
 };
 
 export default BabyTrees2;

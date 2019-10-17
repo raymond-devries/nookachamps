@@ -22,14 +22,19 @@ const OrganicSign = () => {
                 childImageSharp {
                     fluid(maxWidth: 500) {
                         ...GatsbyImageSharpFluid
-                        presentationWidth
                     }
                 }
             }
         }
     `);
 
-    return <Img fluid={data.placeholderImage.childImageSharp.fluid}/>;
+    return (
+        <Img
+            fluid={data.placeholderImage.childImageSharp.fluid}
+            imgStyle={{ objectFit: "contain" }}
+            style={{ maxHeight: "500px" }}
+        />
+    );
 };
 
 export default OrganicSign;

@@ -1,8 +1,4 @@
 
-.section {
-    height: 400px;
-}
-
 .images {
     max-width: 600px;
     margin: 0 auto;
@@ -14,6 +10,7 @@
 }
 
 .green-background {
+    height: 600px;
     background: rgb(32,113,51);
     background: linear-gradient(0deg, rgba(32,113,51,1) 0%, rgba(28,98,64,1) 100%);
 }
@@ -30,6 +27,12 @@
 @media only screen and (max-width: 350px) {
     .header-text h1 {
         font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .green-background {
+        height: 450px;
     }
 }
 
