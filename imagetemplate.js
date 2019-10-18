@@ -20,7 +20,7 @@ const Imagetemplate = () => {
                 relativePath: { eq: "##IMAGEPATH##" }
             ) {
                 childImageSharp {
-                    fluid(maxWidth: ##WIDTH##) {
+                    fluid(maxWidth: 700) {
                         ...GatsbyImageSharpFluid
                     }
                 }

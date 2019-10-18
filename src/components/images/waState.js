@@ -28,7 +28,12 @@ const WaState = () => {
         }
     `);
 
-    return <Img fluid={data.placeholderImage.childImageSharp.fluid} className="images"/>;
+    return (
+        <Img
+            fluid={data.placeholderImage.childImageSharp.fluid}
+            className="images"
+        />
+    );
 };
 
 export default WaState;

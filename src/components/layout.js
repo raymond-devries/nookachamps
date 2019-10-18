@@ -11,6 +11,7 @@ import { useStaticQuery, graphql } from "gatsby";
 import {Helmet} from "react-helmet/es/Helmet";
 
 import Header from "./header";
+import Footer from "./footer";
 
 const Layout = ({ children }) => {
     const data = useStaticQuery(graphql`
@@ -31,6 +32,7 @@ const Layout = ({ children }) => {
             </Helmet>
             <Header siteTitle={data.site.siteMetadata.title} />
             <main>{children}</main>
+            <Footer/>
         </>
     );
 };

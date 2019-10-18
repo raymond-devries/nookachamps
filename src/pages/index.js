@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "gatsby";
 import "../components/main.css";
 
 import Layout from "../components/layout";
@@ -9,6 +8,9 @@ import IndexTop from "../components/images/index-bg-imgs";
 import WaState from "../components/images/waState";
 
 import MyCarousel from "../components/carousel";
+import Story from "../components/story";
+import Values from "../components/values";
+import ContactMp from "../components/contact-mp";
 
 const IndexPage = () => (
     <Layout>
@@ -23,10 +25,12 @@ const IndexPage = () => (
                 A family-owned, sustainable, organic hazelnut orchard.
             </h1>
         </div>
-        <div className="green-background p-5">
-            <MyCarousel/>
+        <div className="green-background p-5 carousel-height">
+            <MyCarousel className="carousel" />
         </div>
-        <Link to="/page-2/">Go to page 2</Link>
+        <Story/>
+        <Values/>
+        <ContactMp/>
     </Layout>
 );
 

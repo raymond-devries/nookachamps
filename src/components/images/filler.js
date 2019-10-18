@@ -13,14 +13,12 @@ import Img from "gatsby-image";
  * - `useStaticQuery`: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-const Trees3 = () => {
+const Filler = () => {
     const data = useStaticQuery(graphql`
         query {
-            placeholderImage: file(
-                relativePath: { eq: "carousel/Trees3.jpeg" }
-            ) {
+            placeholderImage: file(relativePath: { eq: "circle.png" }) {
                 childImageSharp {
-                    fluid(maxWidth: 700) {
+                    fluid(maxWidth: 500) {
                         ...GatsbyImageSharpFluid
                     }
                 }
@@ -31,10 +29,9 @@ const Trees3 = () => {
     return (
         <Img
             fluid={data.placeholderImage.childImageSharp.fluid}
-            imgStyle={{ objectFit: "contain" }}
-            style={{ maxHeight: "500px" }}
+            className="images"
         />
     );
 };
 
-export default Trees3;
+export default Filler;

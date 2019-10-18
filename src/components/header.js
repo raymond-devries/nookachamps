@@ -1,4 +1,3 @@
-import { Link } from "gatsby";
 import PropTypes from "prop-types";
 import React from "react";
 import Navbar from "react-bootstrap/Navbar";
@@ -11,8 +10,8 @@ const Header = ({ siteTitle }) => (
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                    <Nav.Link href="">About</Nav.Link>
-                    <Nav.Link href="">Contact Us</Nav.Link>
+                    <Nav.Link href="/">Home</Nav.Link>
+                    <Nav.Link href="/contact">Contact Us</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

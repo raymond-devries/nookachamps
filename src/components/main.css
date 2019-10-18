@@ -4,15 +4,33 @@
     margin: 0 auto;
 }
 
+.value-icons {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
 .black-background {
     background: rgb(12, 12, 12);
     background: linear-gradient(180deg, rgba(12, 12, 12, 1) 0%, rgb(21, 21, 21) 50%, rgb(21, 21, 21) 100%);
 }
 
-.green-background {
+.carousel-height {
     height: 600px;
-    background: rgb(32,113,51);
-    background: linear-gradient(0deg, rgba(32,113,51,1) 0%, rgba(28,98,64,1) 100%);
+}
+
+.green-background {
+    background: rgb(32, 113, 51);
+    background: linear-gradient(0deg, rgba(32, 113, 51, 1) 0%, rgba(28, 98, 64, 1) 100%);
+}
+
+.blue-background {
+    background: rgb(32, 54, 113);
+    background: linear-gradient(0deg, rgba(32, 54, 113, 1) 0%, rgba(28, 88, 98, 1) 100%);
+}
+
+.footer-background {
+    background: rgb(27, 27, 27);
+    background: linear-gradient(180deg, rgba(27, 27, 27, 1) 0%, rgba(17, 17, 17, 1) 100%);
 }
 
 #index-top {
@@ -23,6 +41,18 @@
     margin-top: 35%;
 }
 
+.contact-page {
+    height: 1000px;
+}
+
+.space {
+    padding-top: 100px;
+}
+
+.contact-form {
+    max-width: 800px;
+    margin: 0 auto;
+}
 
 @media only screen and (max-width: 350px) {
     .header-text h1 {
@@ -31,7 +61,7 @@
 }
 
 @media only screen and (max-width: 400px) {
-    .green-background {
+    .carousel-height {
         height: 450px;
     }
 }
@@ -48,6 +78,10 @@
 
     #index-top-text {
         margin-top: 100px;
+    }
+
+    .limit-text-width {
+        max-width: 550px;
     }
 
 }

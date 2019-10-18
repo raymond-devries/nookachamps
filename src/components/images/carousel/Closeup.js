@@ -20,7 +20,7 @@ const Closeup = () => {
                 relativePath: { eq: "carousel/Closeup.jpeg" }
             ) {
                 childImageSharp {
-                    fluid(maxWidth: 500) {
+                    fluid(maxWidth: 700) {
                         ...GatsbyImageSharpFluid
                     }
                 }

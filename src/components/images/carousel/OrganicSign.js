@@ -20,7 +20,7 @@ const OrganicSign = () => {
                 relativePath: { eq: "carousel/OrganicSign.jpeg" }
             ) {
                 childImageSharp {
-                    fluid(maxWidth: 500) {
+                    fluid(maxWidth: 700) {
                         ...GatsbyImageSharpFluid
                     }
                 }
