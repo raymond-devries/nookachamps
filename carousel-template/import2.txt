@@ -1,0 +1,1 @@
+import ##IMPORT## from "./images/carousel/##IMPORT##";

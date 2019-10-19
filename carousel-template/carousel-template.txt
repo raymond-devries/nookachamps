@@ -1,0 +1,38 @@
+import React from "react";
+import Carousel from "react-bootstrap/Carousel";
+import ##IMPORT## from "./images/carousel/##IMPORT##";
+
+
+const MyCarousel = () => (
+    <Carousel>
+        <Carousel.Item>
+            <OrganicSign/>
+        </Carousel.Item>
+        <Carousel.Item>
+            <Closeup/>
+        </Carousel.Item>
+        <Carousel.Item>
+            <BabyTrees/>
+        </Carousel.Item>
+        <Carousel.Item>
+            <Truck/>
+        </Carousel.Item>
+        <Carousel.Item>
+            <Trees3/>
+        </Carousel.Item>
+        <Carousel.Item>
+            <Trees1/>
+        </Carousel.Item>
+        <Carousel.Item>
+            <BabyTrees3/>
+        </Carousel.Item>
+        <Carousel.Item>
+            <BabyTrees2/>
+        </Carousel.Item>
+        <Carousel.Item>
+            <Tree2/>
+        </Carousel.Item>
+    </Carousel>
+);
+
+export default MyCarousel
