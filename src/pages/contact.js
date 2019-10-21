@@ -16,6 +16,7 @@ const Contact = () => (
             <div className="contact-form">
                 <Form
                     className="mx-5"
+                    name="contact"
                     data-netlify="true"
                     method="POST"
                     action={"/success/"}
@@ -26,6 +27,7 @@ const Contact = () => (
                             required
                             type="email"
                             placeholder="name@example.com"
+                            name="email"
                         />
                     </Form.Group>
                     <Form.Group controlId="name">
@@ -34,11 +36,16 @@ const Contact = () => (
                             required
                             type="text"
                             placeholder="John Smith"
+                            name="name"
                         />
                     </Form.Group>
                     <Form.Group controlId="phone">
                         <Form.Label column="">Phone Number</Form.Label>
-                        <Form.Control type="tel" placeholder="optional" />
+                        <Form.Control
+                            type="tel"
+                            placeholder="optional"
+                            name="phone"
+                        />
                     </Form.Group>
                     <Form.Group controlId="message">
                         <Form.Label column="">Message</Form.Label>
@@ -47,8 +54,11 @@ const Contact = () => (
                             as="textarea"
                             placeholder="Your message here"
                             rows="10"
+                            name="message"
                         />
                     </Form.Group>
+                    {/*If there is issues with spam add this*/}
+                    {/*<div data-netlify-recaptcha="true" />*/}
                     <Button
                         variant="success"
                         type="submit"
