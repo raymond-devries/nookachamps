@@ -17,7 +17,7 @@ const WaState = () => {
     const data = useStaticQuery(graphql`
         query {
             placeholderImage: file(
-                relativePath: { eq: "Washington-state-map_h.png" }
+                relativePath: { eq: "Washington-state-map.png" }
             ) {
                 childImageSharp {
                     fluid(maxWidth: 600) {

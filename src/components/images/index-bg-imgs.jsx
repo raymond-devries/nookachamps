@@ -39,7 +39,7 @@ const BackgroundSection = ({ className }) => (
 
 const IndexTop = styled(BackgroundSection)`
     width: 100%;
-    background-position: center top;
+    background-position: center;
     background-repeat: repeat-y;
     background-size: cover;
 `;

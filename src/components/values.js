@@ -1,5 +1,7 @@
 import React from "react";
-import Filler from "./images/filler";
+import Ethical from "./images/ethical";
+import Family from "./images/family-owned";
+import Sustainable from "./images/sustainable";
 
 const Values = () => (
     <div className="black-background p-4 header-text text-white text-center">
@@ -7,7 +9,7 @@ const Values = () => (
         <div className="d-lg-flex justify-content-center">
             <div className="p-3 value-icons">
                 <h2>Sustainable</h2>
-                <Filler/>
+                <div className="p-3"><Sustainable/></div>
                 <p>
                     We believe in treating the land and the environment right so
                     it can continue to produce.
@@ -15,7 +17,7 @@ const Values = () => (
             </div>
             <div className="p-3 value-icons">
                 <h2>Ethical</h2>
-                <Filler/>
+                <div className="p-3"><Ethical/></div>
                 <p>
                     Treating our employees, vendors and customers without the
                     utmost respect is essential to our business.
@@ -24,7 +26,7 @@ const Values = () => (
 
             <div className="p-3 value-icons">
                 <h2>Family-Owned</h2>
-                <Filler/>
+                <div className="p-3"><Family/></div>
                 <p>
                     The land we farm has been part of the DeVries heritage for over
                     50 years. We take pride in continuing what Raymond and Alice
