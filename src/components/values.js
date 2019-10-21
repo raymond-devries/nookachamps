@@ -19,7 +19,7 @@ const Values = () => (
                 <h2>Ethical</h2>
                 <div className="p-3"><Ethical/></div>
                 <p>
-                    Treating our employees, vendors and customers without the
+                    Treating our employees, vendors and customers with the
                     utmost respect is essential to our business.
                 </p>
             </div>
