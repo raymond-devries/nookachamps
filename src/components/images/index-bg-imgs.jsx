@@ -10,7 +10,7 @@ const BackgroundSection = ({ className }) => (
             query {
                 desktop: file(relativePath: { eq: "index-bg.png" }) {
                     childImageSharp {
-                        fluid(quality: 90, maxWidth: 1920) {
+                        fluid(quality: 90, maxWidth: 2500) {
                             ...GatsbyImageSharpFluid_withWebp
                         }
                     }
