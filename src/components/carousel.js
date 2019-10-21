@@ -1,23 +1,23 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 
-import Photo Oct 01, 3 44 33 PM from "./images/carousel/Photo Oct 01, 3 44 33 PM";import OrganicSign from "./images/carousel/OrganicSign";import Photo Oct 10, 2 42 30 PM from "./images/carousel/Photo Oct 10, 2 42 30 PM";import Trees3 from "./images/carousel/Trees3";import Tree2 from "./images/carousel/Tree2";import Trees1 from "./images/carousel/Trees1";import Closeup from "./images/carousel/Closeup";import Truck from "./images/carousel/Truck";const MyCarousel = () => (
+import Truck from "./images/carousel/Truck";import Closeup from "./images/carousel/Closeup";import OrganicSign from "./images/carousel/OrganicSign";import Tree2 from "./images/carousel/Tree2";import Trees1 from "./images/carousel/Trees1";import PhotoOct0134433PM from "./images/carousel/PhotoOct0134433PM";import Trees3 from "./images/carousel/Trees3";import PhotoOct1024230PM from "./images/carousel/PhotoOct1024230PM";const MyCarousel = () => (
     <Carousel>        <Carousel.Item>
-            <Photo Oct 01, 3 44 33 PM/>
+            <Truck/>
+        </Carousel.Item>        <Carousel.Item>
+            <Closeup/>
         </Carousel.Item>        <Carousel.Item>
             <OrganicSign/>
-        </Carousel.Item>        <Carousel.Item>
-            <Photo Oct 10, 2 42 30 PM/>
-        </Carousel.Item>        <Carousel.Item>
-            <Trees3/>
         </Carousel.Item>        <Carousel.Item>
             <Tree2/>
         </Carousel.Item>        <Carousel.Item>
             <Trees1/>
         </Carousel.Item>        <Carousel.Item>
-            <Closeup/>
+            <PhotoOct0134433PM/>
         </Carousel.Item>        <Carousel.Item>
-            <Truck/>
+            <Trees3/>
+        </Carousel.Item>        <Carousel.Item>
+            <PhotoOct1024230PM/>
         </Carousel.Item></Carousel>
 );
 

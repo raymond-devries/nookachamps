@@ -13,11 +13,11 @@ import Img from "gatsby-image";
  * - `useStaticQuery`: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-const Photo Oct 01, 3 44 33 PM = () => {
+const PhotoOct1024230PM = () => {
     const data = useStaticQuery(graphql`
         query {
             placeholderImage: file(
-                relativePath: { eq: "carousel/Photo Oct 01, 3 44 33 PM.jpg" }
+                relativePath: { eq: "carousel/Photo Oct 10, 2 42 30 PM.jpg" }
             ) {
                 childImageSharp {
                     fluid(maxWidth: 700) {
@@ -37,4 +37,4 @@ const Photo Oct 01, 3 44 33 PM = () => {
     );
 };
 
-export default Photo Oct 01, 3 44 33 PM;
+export default PhotoOct1024230PM;
