@@ -58,6 +58,11 @@
     margin: 0 auto;
 }
 
+.hidden-form {
+    visibility: hidden;
+    position: absolute;
+}
+
 @media only screen and (max-width: 350px) {
     .header-text h1 {
         font-size: 35px;
