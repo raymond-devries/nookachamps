@@ -25,7 +25,7 @@ const Contact = () => (
                     <input
                         type="hidden"
                         name="form-name"
-                        value="the-name-of-the-html-form"
+                        value="contact"
                     />
                     <p className="hidden-form">
                         <label>Don’t fill this out if you're human: <input name="bot-field"/></label>
