@@ -17,9 +17,9 @@ const Contact = () => (
                 <Form
                     className="mx-5"
                     name="contact"
-                    data-netlify="true"
                     method="POST"
-                    action={"/success/"}
+                    action="/success/"
+                    data-netlify="true"
                 >
                     <Form.Group controlId="email">
                         <Form.Label column="">Email address</Form.Label>

@@ -17,7 +17,7 @@ const IndexPage = () => (
         <SEO title="Home" />
         <IndexTop className="p-1 text-white" />
         <div className="black-background pt-5 text-white text-center header-text">
-            <h1 className="p-2">Who we are?</h1>
+            <h1 className="p-2">Who we are</h1>
             <div className="p-3 images">
                 <WaState />
             </div>
