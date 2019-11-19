@@ -18,11 +18,11 @@ module.exports = {
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
-                name: `gatsby-starter-default`,
-                short_name: `starter`,
+                name: `Nookachamps Farms`,
+                short_name: `Nookachamps`,
                 start_url: `/`,
-                background_color: `#663399`,
-                theme_color: `#663399`,
+                background_color: `#111111`,
+                theme_color: `#203671`,
                 display: `minimal-ui`,
                 icon: `src/images/globe.png` // This path is relative to the root of the site.
             }
