@@ -22,7 +22,7 @@ const IndexPage = () => (
                 <WaState />
             </div>
             <h1 className="p-3 pb-5 m-0">
-                A family-owned, sustainable, organic hazelnut orchard.
+                A family-owned, regenerative, organic hazelnut orchard.
             </h1>
         </div>
         <div className="green-background p-5 carousel-height">

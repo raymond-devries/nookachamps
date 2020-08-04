@@ -6,14 +6,22 @@ import Sustainable from "./images/sustainable";
 const Values = () => (
     <div className="black-background p-4 header-text text-white text-center">
         <h1>Our Values</h1>
-        <div className="d-lg-flex justify-content-center">
+        <div className="d-lg-flex  justify-content-center">
             <div className="p-3 value-icons">
                 <h2>Sustainable</h2>
                 <div className="p-3"><Sustainable/></div>
                 <p>
-                    We believe in treating the land and the environment right so
-                    it can continue to produce.
+                    We believe in treating the land in ways that enrich the environment by using regenerative organic
+                    practices.
                 </p>
+                <ul className="text-left">
+                    <li>Build soil organic matter</li>
+                    <li>Conservation tillage</li>
+                    <li>Cover crops</li>
+                    <li>Permanent vegetation to prevent soil erosion</li>
+                    <li>No GMOs</li>
+                    <li>No synthetic inputs</li>
+                </ul>
             </div>
             <div className="p-3 value-icons">
                 <h2>Ethical</h2>
