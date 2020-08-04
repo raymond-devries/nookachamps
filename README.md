@@ -1,1 +1,1 @@
-This a deployed site that serves as the web presence for Nookachamps farms in Skagit Valley Washington that can be found at [nookachampsfarms.com](https://nookachampsfarms.com/). It is build with Gatsby, a react static site generator. 
+This is a deployed site that serves as the web presence for Nookachamps farms in Skagit Valley Washington that can be found at [nookachampsfarms.com](https://nookachampsfarms.com/). It is built with Gatsby, a react static site generator. 
