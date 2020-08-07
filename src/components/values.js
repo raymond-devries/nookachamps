@@ -8,7 +8,7 @@ const Values = () => (
         <h1>Our Values</h1>
         <div className="d-lg-flex  justify-content-center">
             <div className="p-3 value-icons">
-                <h2>Sustainable</h2>
+                <h2>Regenerative</h2>
                 <div className="p-3"><Sustainable/></div>
                 <p>
                     We believe in treating the land in ways that enrich the environment by using regenerative organic
